@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="375px" height="440px" viewBox="0 0 375 440" style="enable-background:new 0 0 375 440;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="375px" height="440px" viewBox="0 0 375 440" style="enable-background:new 0 0 375 440;" xml:space="preserve">
 <style type="text/css">
 <![CDATA[
 	.st0{clip-path:url(#SVGID_11_);fill-rule:evenodd;clip-rule:evenodd;fill:#8C6239;}
@@ -145,31 +144,19 @@
 		<rect id="SVGID_47_" width="375" height="440"/>
 	</defs>
 	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_47_"  style="overflow:visible;"/>
+		<use xlink:href="#SVGID_47_" style="overflow:visible;"/>
 	</clipPath>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#EC1E24;" d="M99.3,0c54.8,0,99.3,44.4,99.3,99.2
-		H0C0,44.4,44.4,0,99.3,0"/>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#EC1E24;" d="M38.6,98.1h297.8v193.2
-		c0,81.8-67,148.7-148.9,148.7h0c-81.9,0-148.9-66.9-148.9-148.7V98.1z"/>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;" d="M68.3,123.4h238.5V250
-		c0,65.5-53.7,119.1-119.2,119.1S68.3,315.5,68.3,250V123.4z"/>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M131.5,355
-		C112,344.6,95.8,329,84.6,310c2.8-10.1,12-17.6,23-17.6h0c13.1,0,23.8,10.7,23.8,23.8V355z"/>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M184.7,369.1
-		c-17-0.4-33.1-4.4-47.7-11.2v-41.6c0-13.1,10.7-23.8,23.8-23.8h0c13.1,0,23.8,10.7,23.8,23.8V369.1z"/>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M238,357.8
-		c-14.5,6.8-30.7,10.8-47.7,11.2v-52.8c0-13.1,10.7-23.8,23.8-23.8h0c13.1,0,23.8,10.7,23.8,23.8V357.8z"/>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M290.4,310
-		c-11.2,19-27.4,34.6-46.8,45v-38.8c0-13.1,10.7-23.8,23.8-23.8C278.3,292.4,287.6,299.9,290.4,310"/>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#EC1E24;" d="M275.7,0C330.6,0,375,44.4,375,99.2
-		H176.5C176.5,44.4,220.9,0,275.7,0"/>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M78.5,123.4h50.1V179
-		c0,13.8-11.3,25-25.1,25c-13.8,0-25.1-11.3-25.1-25V123.4z"/>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M134.5,123.4h50.1V179
-		c0,13.8-11.3,25-25.1,25c-13.8,0-25.1-11.3-25.1-25V123.4z"/>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M190.4,123.4h50.1V179
-		c0,13.8-11.3,25-25.1,25c-13.8,0-25.1-11.3-25.1-25V123.4z"/>
-	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M246.4,123.4h50.1V179
-		c0,13.8-11.3,25-25.1,25c-13.8,0-25.1-11.3-25.1-25V123.4z"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#EC1E24;" d="M99.3,0c54.8,0,99.3,44.4,99.3,99.2   H0C0,44.4,44.4,0,99.3,0"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#EC1E24;" d="M38.6,98.1h297.8v193.2   c0,81.8-67,148.7-148.9,148.7h0c-81.9,0-148.9-66.9-148.9-148.7V98.1z"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;" d="M68.3,123.4h238.5V250   c0,65.5-53.7,119.1-119.2,119.1S68.3,315.5,68.3,250V123.4z"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M131.5,355   C112,344.6,95.8,329,84.6,310c2.8-10.1,12-17.6,23-17.6h0c13.1,0,23.8,10.7,23.8,23.8V355z"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M184.7,369.1   c-17-0.4-33.1-4.4-47.7-11.2v-41.6c0-13.1,10.7-23.8,23.8-23.8h0c13.1,0,23.8,10.7,23.8,23.8V369.1z"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M238,357.8   c-14.5,6.8-30.7,10.8-47.7,11.2v-52.8c0-13.1,10.7-23.8,23.8-23.8h0c13.1,0,23.8,10.7,23.8,23.8V357.8z"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M290.4,310   c-11.2,19-27.4,34.6-46.8,45v-38.8c0-13.1,10.7-23.8,23.8-23.8C278.3,292.4,287.6,299.9,290.4,310"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#EC1E24;" d="M275.7,0C330.6,0,375,44.4,375,99.2   H176.5C176.5,44.4,220.9,0,275.7,0"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M78.5,123.4h50.1V179   c0,13.8-11.3,25-25.1,25c-13.8,0-25.1-11.3-25.1-25V123.4z"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M134.5,123.4h50.1V179   c0,13.8-11.3,25-25.1,25c-13.8,0-25.1-11.3-25.1-25V123.4z"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M190.4,123.4h50.1V179   c0,13.8-11.3,25-25.1,25c-13.8,0-25.1-11.3-25.1-25V123.4z"/>
+	<path style="clip-path:url(#SVGID_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;" d="M246.4,123.4h50.1V179   c0,13.8-11.3,25-25.1,25c-13.8,0-25.1-11.3-25.1-25V123.4z"/>
 </g>
 </svg>
