@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Patua+One&display=swap');
+
+
 html, body{
     height: 100%;
     width: 100%;
     margin: 0;
 }
 
+
+
+/* PARTE DELL'HEADER */
+
 * header{
-    border: 1px solid black;
-    
+    box-sizing: border-box;
+    border: solid red 1px;
 }
 
 
@@ -26,10 +33,30 @@ header{
 }
 
 .autore{
-    padding-top: 520px;
+    padding-top: 500px;
     
 }
 
+.nowplaying{
+    font-family: 'PT Sans', sans-serif, ;
+    font-size: 30px;
+    font-weight:300;
+}
+
+#artist{
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'Patua One', cursive;
+    padding-bottom: 0;
+}
+
+#song{
+    font-family: 'PT Sans', sans-serif, cursive;
+    font-size: 34px;
+    font-style: oblique;
+    padding-top: 0;
+    
+}
 .container1{
     height:100%;
     width: 100%;
@@ -46,14 +73,12 @@ header{
 
 }
 
+/* PARTE DEL FOOTER  */
+
 .container-footer{
     height: 100vh;
     display:flex;
     justify-content:space-around;
-   
-    
-   
-
  
 }
 
@@ -82,6 +107,245 @@ header{
     align-self: center;
 }
 
+/* PARTE DONNA STRANA */
 .container-donnastrana{
+   
     background-color: purple;
+}
+
+.container-donnastrana2{
+    background-color: purple;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%; 
+}
+
+/* PARTE PRIMA SEZIONE di "how to listen" */
+.container-howto{
+    background-color: #ffcc00;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas:
+     'howto cerchio';
+    box-sizing: border-box;
+    border: solid red 1px;
+    
+    
+}
+
+.container-primaparte{
+    font-family: 'Patua One', cursive;
+    font-weight: 300;
+    font-size: 130px;
+    display: flex;
+    flex-grow: 2;
+    /* border: 6px solid black; */
+    justify-content: space-between;  
+    
+}
+
+.container-primaparte h1{
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+
+
+
+.container-secondaparte{
+    grid-area: cerchio;
+    flex-grow:1;
+    display: flex;
+    /* border: 6px solid black;  */
+    flex-direction: column;
+    justify-content: space-around;
+    
+  
+
+}
+
+.fm h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 130px;
+    border-bottom: 1px solid black;
+    margin:0;
+    padding: 0;
+}
+
+
+
+
+.città{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mega-container{
+    background-color: #ffcc00;
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: 
+    ' online logoonline';
+    justify-content: space-between;
+
+    /* border: solid red 1px; */
+   
+}
+.container-Online{
+    grid-area: online;
+    flex-grow: 4;
+    padding-left:30px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+  
+}
+.container-Online h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 110px;
+    border-bottom: 1px solid black;
+    margin:0;
+    padding: 0;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    display: inline-flex;
+    flex-direction: row;
+
+}
+
+.no{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 300;
+    margin:0;
+    padding: 0;
+}
+
+.container-logoonline{
+    grid-area: logoonline;
+    /* border: solid red 1px; */
+    flex-grow: 1;
+    flex-basis:0;
+    padding-left: 100px;
+}
+
+.illu3{
+    background-color: #660099;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%; 
+}
+
+/* PARTE KEYBOARD */
+
+
+/* PARTE SECONDA SEZIONE di "how to listen" */
+
+/* .container-devices{
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    ' . tit'
+    'dev dev'
+    'dev'
+    'dev' ;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    
+}
+
+.container-devices h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 130px;
+    border-bottom: 1px solid black;
+    margin:0;
+    padding: 0;
+    grid-area: tit;
+}
+
+.devices{
+    grid-area: dev;
+    border-bottom: 1px solid black
+} */
+
+
+/* PARTE SEZIONE PECORA */
+
+.container-pecora{
+    display: flex;
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    justify-content: space-evenly;
+    background-color:#0099ff;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.pecora{
+     
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.container-testo{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: left;
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    flex-basis: 0;
+    padding-left: 10px;
+    padding-right:15px;
+    overflow: scroll;
+}
+
+.piccentro{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 0;
+    justify-content: center;
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+}
+
+
+.container-testo h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 130px;
+    border-bottom: 1px solid white;
+    margin:0;
+    padding: 0;
+    color:white
+}
+
+.jazz-pecora{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }
