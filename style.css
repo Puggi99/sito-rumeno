@@ -11,10 +11,10 @@ html, body{
 
 /* PARTE DELL'HEADER */
 
-* header{
+/* * header{
     box-sizing: border-box;
     border: solid red 1px;
-}
+} */
 
 
 header{
@@ -29,6 +29,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     border: 1px solid black;
+    padding-bottom: 0;
  
 }
 
@@ -66,11 +67,19 @@ header{
     flex-grow:1;
 }
 
-#play{
+.container-play{
 
  flex-grow: 1;
  flex-basis: 0;
 
+}
+
+.play{
+    display: flex;
+    height: 100vw;
+    width: 100vw;
+    padding: 12px;
+    margin: 10px;
 }
 
 /* PARTE DEL FOOTER  */
@@ -107,11 +116,13 @@ header{
     align-self: center;
 }
 
-/* PARTE DONNA STRANA */
+/* PARTE DONNA STRANA (1) */
 .container-donnastrana{
    
     background-color: purple;
 }
+
+/* PARTE DONNA STRANA (2) */
 
 .container-donnastrana2{
     background-color: purple;   
@@ -128,8 +139,9 @@ header{
     grid-template-columns: 3fr 2fr;
     grid-template-areas:
      'howto cerchio';
-    box-sizing: border-box;
-    border: solid red 1px;
+    /* box-sizing: border-box;
+    border: solid red 1px; */
+    width: 100vw;
     
     
 }
@@ -161,11 +173,18 @@ header{
     /* border: 6px solid black;  */
     flex-direction: column;
     justify-content: space-around;
+    max-width: 100%;
     
   
 
 }
 
+.cerchio{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 100vh;
+    padding-top:50px
+}
 .fm h2{
     font-family: 'PT Sans', sans-serif;
     font-weight: 300;
@@ -209,6 +228,7 @@ header{
     display: flex;
     /* justify-content: space-between; */
     flex-direction: column;
+    max-height: 60vh;
   
 }
 .container-Online h3{
@@ -253,37 +273,94 @@ header{
 
 
 /* PARTE SECONDA SEZIONE di "how to listen" */
+.containerprincipale-devices{
+    display: flex;
+    flex-direction: column;
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    height: 90vh;
+    background-color: #ffcc00;;
+    padding-top: 100px
 
-/* .container-devices{
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: auto;
-    grid-template-areas: 
-    ' . tit'
-    'dev dev'
-    'dev'
-    'dev' ;
-    height: 100vh;
-    width: 100vw;
-    justify-content: space-between;
+  
+
     
 }
 
-.container-devices h3{
+.containerprincipale-devices h3{
     font-family: 'PT Sans', sans-serif;
     font-weight: 300;
     font-size: 130px;
     border-bottom: 1px solid black;
     margin:0;
     padding: 0;
-    grid-area: tit;
+    width:100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding-left: 55vw;
 }
 
 .devices{
-    grid-area: dev;
-    border-bottom: 1px solid black
-} */
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    flex-direction: row;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding-top:30px;
+    padding-bottom:0px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 130px;
+    align-self: flex-end;
 
+}
+
+
+.alexa{
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}  
+
+.testo-alexa{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    font-family: 'PT Sans', sans-serif;
+    /* font-weight: 300; */
+    font-size: 45px;
+    justify-content: right;
+    border-bottom: 1px solid black;
+    align-self: flex-end;
+}
+
+.container-logodevices{
+    display: flex;
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    height: 100vh;
+    background-color: #ffcc00;;
+    justify-content: space-evenly;
+    padding-bottom:200px;
+}
+
+.logo-devices{
+    display: flex;
+    /* flex-grow: 1; */
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    flex-direction: row;
+    width:100%;
+    justify-content: center;
+}
 
 /* PARTE SEZIONE PECORA */
 
@@ -296,6 +373,7 @@ header{
     padding-top: 20px;
     padding-bottom: 20px
 }
+
 
 .pecora{
      
@@ -348,4 +426,522 @@ header{
     display: flex;
     justify-content: space-between;
     color: white;
+}
+
+
+/* VISUALIZZAZIONE PER TELEFONI */
+
+@media only screen and (max-width: 600px) {
+    /* * header{
+    box-sizing: border-box;
+    border: solid red 1px;
+} */
+
+
+header{
+    background-color: #ffcc00;
+    display: flex;
+}
+
+.container-header{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+ 
+}
+
+.autore{
+    padding-top: 500px;
+    
+}
+
+.nowplaying{
+    font-family: 'PT Sans', sans-serif, ;
+    font-size: 30px;
+    font-weight:300;
+}
+
+#artist{
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'Patua One', cursive;
+    padding-bottom: 0;
+}
+
+#song{
+    font-family: 'PT Sans', sans-serif, cursive;
+    font-size: 34px;
+    font-style: oblique;
+    padding-top: 0;
+    
+}
+.container1{
+    height:100%;
+    width: 100%;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+    flex-grow:1;
+}
+
+.play{
+display: flex;
+height: 70vw;
+width: 100vw;
+ flex-grow: 1;
+ flex-basis: 0;
+
+}
+
+
+/* PARTE DEL FOOTER (MOBILE) */
+
+.container-footer{
+    height: 100vh;
+    display:flex;
+    justify-content:space-around;
+    flex-direction: column;
+ 
+}
+
+.arrow{
+   
+    height:100%;
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    flex-grow: 1;
+    
+   
+} 
+
+.mouth{
+
+    height:100%;
+    display:flex;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: #660099;
+
+}
+
+.pic{
+    align-self: center;
+}
+
+/* PARTE DONNA STRANA */
+.container-donnastrana{
+   
+    background-color: purple;
+}
+
+.container-donnastrana2{
+    background-color: purple;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vw; 
+    width: 100vw;
+}
+
+
+/* PARTE PRIMA SEZIONE di "how to listen" */
+.container-howto{
+    background-color: #ffcc00;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+     'howto'
+     'cerchio';
+    /* box-sizing: border-box;
+    border: solid red 1px; */
+    width: 100vw;
+    
+    
+    
+}
+
+.container-primaparte{
+    font-family: 'Patua One', cursive;
+    font-weight: 300;
+    font-size: 130px;
+    display: flex;
+    flex-grow: 1;
+    /* border: 6px solid black; */
+    justify-content: space-between;  
+    padding-bottom: 0;
+    
+}
+
+.container-primaparte h1{
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    font-size: 80px;
+}
+
+.img-listen{
+    display: flex;
+    height: 90vw;
+    width: 100vw;
+}
+
+
+
+
+.container-secondaparte{
+    grid-area: cerchio;
+    flex-grow:1;
+    display: flex;
+    /* border: 6px solid black;  */
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100vw;
+    padding-bottom:0;
+    margin: 0;
+    
+  
+}
+
+.cerchio{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100vh;
+    padding-top:50px;
+ 
+    
+}
+
+
+.fm h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 80px;
+    border-bottom: 1px solid black;
+    margin:0;
+   
+}
+
+
+.fm{
+    width: 100vw;
+    padding-top:100px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    height: 100vw;
+    
+}
+
+.città{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mega-container{
+    background-color: #ffcc00;
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: auto;
+    grid-template-areas: 
+    'logoonline'
+    ' online';
+    justify-content: space-around;
+
+    /* border: solid red 1px; */
+   
+}
+.container-Online{
+    grid-area: online;
+    flex-grow: 4;
+    padding-left:1px;
+    padding-right:100px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    max-height: 60vh;
+    width: 100vw;
+  
+}
+.container-Online h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 80px;
+    border-bottom: 1px solid black;
+    margin:0;
+    padding: 0;
+    justify-content: left;
+    padding-left: 10px;
+    display: inline-flex;
+    flex-direction: row;
+
+}
+
+
+.no{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 300;
+    margin:0;
+    padding: 0;
+}
+
+.container-logoonline{
+    grid-area: logoonline;
+    /* border: solid red 1px; */
+    padding-left: 10px;
+    /* padding-top: 100px; */
+    display: flex;
+}
+
+
+#logo-online{
+    grid-area: logoonline;
+    /* border: solid red 1px; */
+    display: flex;
+    height: 75vw;
+    width: 100vw;
+  justify-content: left;
+  padding-top: 0px;
+}
+
+/* PARTE SECONDA SEZIONE di "how to listen" */
+.containerprincipale-devices{
+    display: flex;
+    flex-direction: column-reverse;
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    height: 70vh;
+    background-color: #ffcc00;;
+    padding-top: 100px;
+    width:100vw;
+  
+
+    
+}
+
+.containerprincipale-devices h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 80px;
+    /* border-bottom: 1px solid black; */
+    margin:0;
+    padding: 0;
+    width:100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* padding-left: 55vw; */
+}
+
+.devices{
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    flex-direction: row;
+    padding-top:20px;
+    padding-bottom:0px;
+    border-bottom: 0px solid black;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    align-self: flex-start;
+
+}
+
+
+.alexa{
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+   
+}  
+
+.testo-alexa{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    font-family: 'PT Sans', sans-serif;
+    /* font-weight: 300; */
+    font-size: 14px;
+    justify-content: right;
+    border-bottom: 0px solid black;
+    align-self: flex-start;
+}
+
+.container-logodevices{
+    /* display: flex; */
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    /* height: 100vh;
+    background-color: #ffcc00;;
+    justify-content: space-evenly; */
+    padding-bottom:0px;
+
+    display: flex;
+    height: 50vw;
+    width: 100vw;
+  justify-content: left;
+  padding-top: 0px;
+    
+}
+
+.logo-devices{
+    display: flex;
+    /* flex-grow: 1; */
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    flex-direction: row;
+    width:50%;
+    justify-content: center;
+}
+
+/* PARTE DONNA STRANA (2) */
+
+.container-donnastrana2{
+    background-color: purple;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%; 
+}
+
+/* PARTE SEZIONE PECORA */
+
+.container-pecora{
+    display: flex;
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    justify-content: space-evenly;
+    background-color:#0099ff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.pecora{
+     
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vw;
+    width: 70vw;
+    
+  
+}
+.container-testo{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: left;
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    flex-basis: 0;
+    padding-left: 10px;
+    padding-right:15px;
+    min-height: 100vw;
+    overflow: none
+    ;
+    
+}
+
+.piccentro{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+    justify-content: center;
+    /* box-sizing: border-box;
+    border: 6px solid black; */
+    align-items: center;
+}
+
+
+.container-testo h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 80px;
+    border-bottom: 1px solid white;
+    margin:0;
+    padding: 0;
+    color:white
+}
+
+.jazz-pecora{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding-top:30px;
+    padding-bottom:30px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.illu3{
+    background-color: #660099;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vw;
+    width: 100vw;
+}
+
+
+/* PARTE DEL FOOTER  */
+
+.container-footer{
+    height: 100vh;
+    display:flex;
+    justify-content:space-around;
+ 
+}
+
+.arrow{
+   flex-basis: 0;
+    height:100%;
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    flex-grow: 1;
+    
+   
+} 
+
+.mouth{
+    flex-basis: 0;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: #660099;
+
+}
+
+.pic{
+    display: flex;
+    align-self: center;
+    height: 50vw ;
+    width: 50vw;
+}
+
 }
