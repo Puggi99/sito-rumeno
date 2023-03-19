@@ -23,12 +23,12 @@ header{
 }
 
 .container-header{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding-bottom: 0;
  
 }
@@ -67,19 +67,9 @@ header{
     flex-grow:1;
 }
 
-.container-play{
-
+.play{
  flex-grow: 1;
  flex-basis: 0;
-
-}
-
-.play{
-    display: flex;
-    height: 100vw;
-    width: 100vw;
-    padding: 12px;
-    margin: 10px;
 }
 
 /* PARTE DEL FOOTER  */
@@ -129,7 +119,16 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 100%; 
+    height: 100vw  ; 
+
+}
+
+.boh{
+    display: flex;
+    flex-direction: column;
+    height: 100vw;
+     width:100vw;   
+    box-sizing: border-box ;
 }
 
 /* PARTE PRIMA SEZIONE di "how to listen" */
@@ -152,7 +151,8 @@ header{
     font-size: 130px;
     display: flex;
     flex-grow: 2;
-    /* border: 6px solid black; */
+    /* box-sizing: border-box;
+    border: 6px solid black; */
     justify-content: space-between;  
     
 }
@@ -161,6 +161,8 @@ header{
     margin: 0;
     padding: 0;
     padding-left: 30px;
+    /* box-sizing: border-box;
+    border: 6px solid black; */
 }
 
 
@@ -174,6 +176,7 @@ header{
     flex-direction: column;
     justify-content: space-around;
     max-width: 100%;
+
     
   
 
@@ -278,13 +281,9 @@ header{
     flex-direction: column;
     /* box-sizing: border-box;
     border: 6px solid black; */
-    height: 90vh;
+    height: 90vw;
     background-color: #ffcc00;;
-    padding-top: 100px
-
-  
-
-    
+    padding-top: 100px;
 }
 
 .containerprincipale-devices h3{
@@ -449,7 +448,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid black;
+    /* border: 1px solid black; */
  
 }
 
@@ -493,6 +492,9 @@ height: 70vw;
 width: 100vw;
  flex-grow: 1;
  flex-basis: 0;
+ justify-content: left;
+ align-self: center;
+
 
 }
 
@@ -633,6 +635,7 @@ width: 100vw;
     flex-direction: column;
     padding-bottom: 0px;
     height: 100vw;
+
     
 }
 
